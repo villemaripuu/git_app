@@ -1,0 +1,12 @@
+#htaccesstools.com
+
+AuthType Basic
+AuthName "protected"
+AuthUserFile C:\Users\v\Desktop\server\.htpasswd
+Require valid-user
+
+
+<files "*.txt">
+	Deny from all
+</files>
+
